@@ -1,9 +1,70 @@
+html{
+    scroll-behavior: smooth;
+}
+
 html,body{
     margin: 0;
     padding: 0;
 }
 
+body{
+    background-image: url("../img/GAMES.jpg");
+}
+
+.panels{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 200px;
+}
+.panel{
+    height: 100%;
+    flex:1;
+    transition: flex 1s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.panel:hover{
+    flex:4
+}
+
+.panel>.titreJeu{
+    color: white;
+}
+.panel>.tmtitle{
+    color: white;
+}
+
+.tm{
+    background-image: url("../img/TM.png");
+}
+
+.csgo{
+    background-image: url("../img/CSGO.jpg");
+  
+
+}
+.lol{
+    background-image: url("../img/LOL.jpg");
+
+}
+.overwatch{
+    background-image: url("../img/OW.jpg");
+
+}
+
+.presentation {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
 .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
