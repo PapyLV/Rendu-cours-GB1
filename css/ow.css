@@ -1,3 +1,18 @@
-.try {
-    color: red;
+html{
+    overflow-x: hidden;
+}
+
+.navbar{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    position: sticky;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 75px;
 }

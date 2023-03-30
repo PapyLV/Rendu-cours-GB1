@@ -1,4 +1,43 @@
+html{
+    overflow-x: hidden;
+}
 
-.try {
-    color: red;
+body{
+    background-color: #DED32B;
+}
+
+.navbar{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    position: sticky;
+}
+
+.bigimg {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    height: 50vh;
+    width: 100vw;
+}
+
+.text{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.video {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    margin-bottom: 20px;
 }
