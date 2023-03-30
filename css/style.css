@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 html,body{
@@ -11,12 +11,20 @@ body{
     background-image: url("../img/GAMES.jpg");
 }
 
+.navbar{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    position: sticky;
+}
+
 .panels{
     display: flex;
     height: 50vh;
     width: 100vw;
-    margin-top: 200px;
+    margin-top: 75px;
 }
+
 .panel{
     height: 100%;
     flex:1;
@@ -62,9 +70,18 @@ body{
     font-size: 35px;
     text-align: center;
     color: white;
+    background-color: #6E2FCA;
+    margin-top: 20px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
