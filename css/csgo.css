@@ -2,6 +2,10 @@ html{
     overflow-x: hidden;
 }
 
+body{
+    background-image: url("../img/GAMES.jpg");
+}
+
 .navbar{
     margin-left: 20px;
     margin-right: 20px;
@@ -15,4 +19,46 @@ html{
     height: 50vh;
     width: 100vw;
     margin-top: 75px;
+}
+
+.text1{
+    background-color: #6E2FCA;
+    margin-top: 20px;
+    display: flex;
+    text-align: left;
+}
+
+.para1{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+
+.text2{
+    background-color: #6E2FCA;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: left;
+}
+
+.para2{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    justify-content: right;
+}
+
+.videocquoi{
+    display: flex;
+    justify-content: left;
+}
+
+.container{
+display: flex;
+justify-content: center;
+margin-top: 20px;
 }
