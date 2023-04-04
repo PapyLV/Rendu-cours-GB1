@@ -44,17 +44,22 @@ body{
     text-align: left;
 }
 
+.videotrailer {
+    margin-right: 20px;
+}
+
+.videocquoi{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+
 .para2{
     margin-right: 20px;
     margin-left: 20px;
     font-size: 20px;
     color: white;
     justify-content: right;
-}
-
-.videocquoi{
-    display: flex;
-    justify-content: left;
 }
 
 .container{
